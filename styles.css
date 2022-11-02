@@ -13,6 +13,8 @@ main {
     justify-content: flex-start;
     width: 100%;
     height: 100vh;
+    /*Le añado un fondo provisional porque el blanco me estaba matando (Cambios-2)*/
+    background: url(https://wallpaper.dog/large/20502085.jpg);
 
 }
 /*Añado tamaño al div donde esta la informacion de los integrantes del grupo (Cambios-1) 
@@ -75,4 +77,14 @@ Nota: posibilidad de cambiar este apuntador de id a un apuntador de clases para 
     opacity: 1;
     transition: all 0.5s;
 
+}
+/*Añado un estilo a la seccion del banner (Cambios-2)*/
+.banner-wrapper {
+    position: relative;
+    background: url(https://www.ejiltalk.org/wp-content/uploads/2021/03/pexels-photo-110854.jpeg);
+    border: 3px solid;
+    border-color: purple;
+    padding: 20px;
+    width: 100%;
+    
 }
