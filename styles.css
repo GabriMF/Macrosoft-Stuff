@@ -1,0 +1,78 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Añadimos el estilo al main para poder organizar los div que van aqui dentro (cambios-1)*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+
+}
+/*Añado tamaño al div donde esta la informacion de los integrantes del grupo (Cambios-1) 
+Nota: posibilidad de cambiar este apuntador de id a un apuntador de clases para todos los
+ div principales de la pagina */
+#div-wrapper {
+    width: 33%;
+    height: 100%;
+}
+
+/*Añado formato estandar a las imagenes que van dentro del div (Cambios-1)*/
+.image-group {
+    width: 150px;
+    height: 200px;
+
+}
+
+/*Añado el estilo al wrapper para tener nocion de donde van a estar los elementos (Cambios-1)*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 45%;
+}
+
+/*Añado el estilo al content (asi llamo al efecto de la palabra que nos identifica y lo demas) (Cambios-1)*/
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/*Añado efecto HOVER para cuando pasamos el cursor sobre los wrapper div aparezca la informacion nuestra (Cambios-1) */
+.wrapper:hover .content {
+    position: absolute;
+    top: 0%;
+    left: 105%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
