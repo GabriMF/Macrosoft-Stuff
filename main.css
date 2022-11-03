@@ -1,0 +1,11 @@
+/*Añadimos el estilo al main para poder organizar los div que van aqui dentro (cambios-1)*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100vh;
+    /*Le añado un fondo provisional porque el blanco me estaba matando (Cambios-2)*/
+    background: url(https://wallpaper.dog/large/20502085.jpg);
+}

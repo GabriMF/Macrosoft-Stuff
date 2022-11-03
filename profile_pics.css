@@ -1,0 +1,39 @@
+#div-wrapper {
+    width: 33%;
+    height: 100%;
+}
+
+.image-group {
+    width: 150px;
+    height: 200px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 45%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    visibility: hidden;
+    opacity: 0;
+}
