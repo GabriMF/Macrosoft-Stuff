@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-.wrapper:hover .content {
+.wrapper:hover .content{
     position: absolute;
     top: 0%;
     left: 105%;
@@ -24,3 +24,5 @@
     transition: all 0.5s;
 
 }
+
+
