@@ -4,6 +4,7 @@
     height: 80vh;
     border: 2px solid;
     text-align: center;
+    backdrop-filter: blur(3px);
 }
 .feels-wrapper{
     width: 100%;
