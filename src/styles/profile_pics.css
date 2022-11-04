@@ -45,6 +45,9 @@
     display: flex;
     flex-direction: column;
 }
+.information-aditional h3{
+    margin: 10px;
+}
 .icons-box{
     display: flex;
     flex-direction: row;
