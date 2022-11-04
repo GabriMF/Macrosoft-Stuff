@@ -2,6 +2,7 @@
 @import url("banner_items.css");
 @import url("profile_pics.css");
 @import url("main.css");
+@import url("footer.css");
 
 * {
     font-family: sans-serif;
