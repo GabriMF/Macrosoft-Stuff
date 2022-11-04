@@ -6,3 +6,15 @@
     text-align: center;
     backdrop-filter: blur(3px);
 }
+.feels-wrapper{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-solid{
+    color: aliceblue;
+    font-size: 2rem;
+    cursor: pointer;
+}
