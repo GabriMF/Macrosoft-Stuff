@@ -1,5 +1,4 @@
 .logo{
-    /* position: relative; top: 50%; */
     padding: 0px;
     width: 30%;
     font-style: italic;
@@ -7,8 +6,10 @@
 }
 .teams-name-area{
     text-align: center;
+    font-style: italic;
+    font-weight: bold;
     font-size: 100; color: white;
-    position: absolute; top: 50%;
+    position: absolute; top: 35%;
     padding: 0px;
     width: 100%;
 }
