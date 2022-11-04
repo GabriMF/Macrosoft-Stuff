@@ -1,6 +1,6 @@
 .banner-area {
     position: relative;
-    background: url(Backgrounds/pexels-photo-110854.jpeg);
+    background: url(/src/Assets/Backgrounds/pexels-photo-110854.jpeg);
     border: 3px solid;
     border-color: purple;
     padding: 15px;
