@@ -12,5 +12,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
+.fa-solid{
+    color: aliceblue;
+    font-size: 2rem;
+    cursor: pointer;
 }
