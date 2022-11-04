@@ -1,5 +1,5 @@
 let btn=document.querySelector(".btn");
-let sugerence=document.querySelector("#feels-wrapper");
+let body=document.querySelector("body");
 btn.onclick = function(){
-    sugerence.classList.toggle("on");
+    body.classList.toggle("on");
 }

@@ -16,7 +16,11 @@
 .fa-solid{
     color: aliceblue;
     font-size: 2rem;
+    
+}
+.btn{
     cursor: pointer;
+
 }
 .sugerences-banner{
     height: 10%;
