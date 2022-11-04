@@ -38,4 +38,16 @@
     visibility: hidden;
     opacity: 0;
 }
+.content h1{
+    margin: 20px;
+}
+.information-aditional{
+    display: flex;
+    flex-direction: column;
+}
+.icons-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
