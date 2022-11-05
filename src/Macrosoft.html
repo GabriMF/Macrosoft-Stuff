@@ -68,10 +68,20 @@
                 <div class="sugerences-banner">
                     <h1>How do you feel?</h1>
                 </div>
-                <div class="">
-                    <i class="fa-solid fa-face-smile "></i>
+                <div class="face">
+                    <i id="laugh" class="fa-solid fa-face-laugh"></i>
+                    <i id="smile" class="fa-solid fa-face-smile "></i>
+                    <i id="sad" class="fa-solid fa-face-sad-tear"></i>
                 </div>
-                <script src="script.js" type="/text/javascript"></script>   
+                <label for="feels">Your feels are important fo us</label>
+                    <select name="feels" id="feels">
+                        <option>--Select-one--</option>
+                        <option value="very-happy">Very Happy</option>
+                        <option value="happy">Happy</option>
+                        <option value="sad">Sad</option>
+                    </select>
+                    <p class="paragraph-message"></p>
+                
             </div>
             
         </section>
@@ -86,6 +96,6 @@
             <p>Chernobyl Cats Team</p>
         </div>
     </footer>
-    
+    <script src="script.js" type="text/javascript"></script> 
 </body>
 </html>
