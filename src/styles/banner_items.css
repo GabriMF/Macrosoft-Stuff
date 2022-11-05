@@ -2,15 +2,19 @@
     padding: 0px;
     width: 30%;
     font-style: italic;
-    font-size: 8px; color: white;
+    font-size: 8px; 
+    color: white;
 }
 
 .teams-name-area{
-    text-align: center;
+
     font-style: italic;
     font-weight: bold;
-    font-size: 100; color: white;
-    position: absolute; top: 25%;
-    padding: 0px;
-    width: 100%;
+    font-size: 100; 
+    color: white;
+    position:relative;
+    top: 25%;
+    left: 18%;
+    margin: 0 5% 0 2% ;
+    width: 90%;
 }

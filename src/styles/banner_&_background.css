@@ -1,9 +1,12 @@
 .banner-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: relative;
     background: url(/src/Assets/Backgrounds/pexels-photo-110854.jpeg);
     border: 3px solid;
     border-color: purple;
-    padding: 15px;
+    overflow: hidden;
     width: 100%;
     height: 125px;
 }
